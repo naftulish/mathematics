@@ -8,7 +8,7 @@ $(document).ready(function(){
         val_of =  $(this).html();
         row = parseInt($(this).attr("data-row"));
         col = parseInt($(this).attr("data-col"));
-        $(this).html($(this).attr("data-num")).addClass("text_sm");
+        $(this).append("<br><span>"+$(this).attr("data-num")+"</span>").addClass("text_sm");
 
         color(row,col);
 
