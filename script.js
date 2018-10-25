@@ -27,8 +27,7 @@ $(document).ready(function(){
         }
     }
 
-    function color_back(){
-        console.log("1");
+    function color_back(){//sorry for tuching your code, just checking GitHub...
         for(var i of tds){
             $(i).css("background","").css("font-weight","");
         }
